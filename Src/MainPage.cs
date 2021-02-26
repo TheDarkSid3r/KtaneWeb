@@ -346,7 +346,7 @@ namespace KtaneWeb
                                     new LABEL { for_ = "pagecount-500" }._("500 (not recommended)")),
                                 new DIV(
                                     new INPUT { type = itype.radio, class_ = "set-pagecount", name = "pagecount", id = "pagecount-1000" }.Data("pagecount", "1000"), " ",
-                                    new LABEL { for_ = "pagecount-1000" }._("1000 (not recommended)")),
+                                    new LABEL { for_ = "pagecount-1000" }._("1000 (not recommended)"))),
                             new DIV { class_ = "option-group" }._(
                                 new H4("Make links go to"),
                                 _selectables.Select(sel => new DIV(
